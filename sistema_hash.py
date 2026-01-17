@@ -19,7 +19,8 @@ def registrar_usuario():
         lista_usuarios.append(username)
         time.sleep(1)
         print("Registrado com sucesso!")
-    
+
+
 def logar_usuario():
     username = input("Digite seu nome de usuário: ")
     if username in lista_usuarios:
@@ -35,7 +36,6 @@ def logar_usuario():
         print("Usuário não existe!")
 
     
-
 while True:
     print("\n [1] Logar \n [2] Registrar \n [3] Sair")
     pergunta = int(input("Digite sua opção: "))
